@@ -16,9 +16,9 @@ perform calculations and create new data series and data frames to work with.  W
 
 ### Resources
 - Data Sources :      CSV files here  
-  - [PyBer_ride_data.csv](https://github.com/mjrotter4445/Pyber_Analysis/blob/main/Resources/PyBer_ride_data.csv)
-  - [city_data.csv](https://github.com/mjrotter4445/Pyber_Analysis/blob/main/Resources/city_data.csv)
-  - [ride_data.csv](https://github.com/mjrotter4445/Pyber_Analysis/blob/main/Resources/ride_data.csv)
+  - [PyBer_ride_data.csv](https://xx.csv)
+  - [city_data.csv](https://xx.csv)
+  - [ride_data.csv](https://xx.csv)
 
 ## Results 
 The first exercise in this challenge was to create a DataFrame with our combined data.  The new Pyber Fare Summary looks like this: 
@@ -32,13 +32,13 @@ INSERT THE WEATHER DATABASE shots here  down below and rewrite this
 In this module I used input function to take and store potential customer preferred minimum and maximum temperatures. Based on this input I used Pandas loc method on Weather Database file to filter the data. Next, I used Google Maps APIs to retrieve hotel names. After cleaning the data, the data frame was exported to CSV file. With the Jupyter gmaps module I plotted map with pop-up message that includes hotel name, city, country and weather information.  The next exercise was to build a pivot table to display the comparitive results. From the pivot table we were able to  
 prdouce and display more meaningful data.  This multi-line chart tells the story in detail and is pleasant to read. 
    
- ![Multiple Line Chart Tot Fares by City Type](https://github.com/mjrotter4445/Pyber_Analysis/blob/main/Graphics/PyBer_fare_summary.png)
+ ![Multiple Line Chart Tot Fares by City Type](https://xx.png)
  
  
 INSERT THE VACATION ITINERARY  here and rewrite this stuff below  
 In this module I selected 4 hotel destinations that potential customers might like to use for their trip planning. Based on selection I extracted coordinates with to_numpy() function and used Google Directions API to connect and mark those points via selected traveling mode
-  ![Multiple Line Chart Tot Fares by City Type](https://github.com/mjrotter4445/Pyber_Analysis/blob/main/Graphics/PyBer_fare_summary.png)
-   ![Multiple Line Chart Tot Fares by City Type](https://github.com/mjrotter4445/Pyber_Analysis/blob/main/Graphics/PyBer_fare_summary.png)
+  ![Multiple Line Chart Tot Fares by City Type](https://xxy.png)
+   ![Multiple Line Chart Tot Fares by City Type](https:/xx.png)
  
  
  
