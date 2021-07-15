@@ -32,17 +32,29 @@ library make the more effective charts.
   ![data from Open Weather API Exercise](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Dataframe_screenshot.png)
   
 In this activity we used **NumPy** to retrieve a random set of 2000 random coordinates (latitudes and longitudes)
-and **Citipy** module to define the closest city names based on these coordinates.   Once the city names were store 
-in a list, we used **Open Weather APIs** to request **json** format weather data from the website.  After cleaning 
-the data, final were transformed into **Pandas** data frame and stored in CSV file.
+and **Citipy** module to define the closest city names based on these coordinates.  Once the city names were stored 
+in a list, we used **Open Weather APIs** to request **json** format weather data from the website.  After cleaning the data, 
+final formats were developed into **Pandas** data frame and stored in CSV file.
 
 **2.  Vacation Search** 
+
+
+ ![xx](xx)
+In this activity we used the input function to collect and store possible preferred minimum and maximum temperatures
+desired for their vacation.   Based on this input, we used Pandas loc method on the Weather Database file to filter 
+data.  Next, we appied Google Maps APIs to retrieve hotel names, clean the dta and export teh file to a csv format.
+With **Jupyter gmaps module** we could plot a map with pop-up messages that include hotel name, city, country
+and weather information.   
+
+
 
  
 **3.  Vacation Itinerary** 
 
 
  ![xx](xx)
+  ![xx](xx)
+ 
  
  
 INSERT THE WEATHER DATABASE shots here  down below and rewrite this 
