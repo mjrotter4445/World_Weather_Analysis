@@ -16,7 +16,7 @@ perform calculations and create new data series and data frames to work with.  W
 
 ### Resources
 - Data Sources :      CSV files here  
-  - [PyBer_ride_data.csv](https://xx.csv)
+  - [WeatherPy_Database.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Database.csv)
   - [Vacation_Search.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation.csv)
   - [ride_data.csv](https://xx.csv)
 
