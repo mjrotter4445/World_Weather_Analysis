@@ -6,6 +6,7 @@
 
 In this project I put together a beta version of an application for potential travel technology services that specializes in hotel and logging industry. The application collects and presents data for customers via the search page that can be filtered based on preferred travel criteria in order to find their ideal hotel anywhere in the world.
 This project consists of three modules.
+
   -	Weather Database
   -	Vacation Search
   -	Vacation Itinerary
@@ -18,7 +19,7 @@ perform calculations and create new data series and data frames to work with.  W
 - Data Sources :      CSV files here  
   - [WeatherPy_Database.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Database.csv)
   - [Vacation_Search.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation.csv)
-  - [ride_data.csv](https://xx.csv)
+ 
 
 ## Results 
 The first exercise in this challenge was to create a DataFrame with our combined data.  The new Pyber Fare Summary looks like this: 
@@ -37,11 +38,12 @@ prdouce and display more meaningful data.  This multi-line chart tells the story
  
 INSERT THE VACATION ITINERARY  here and rewrite this stuff below  
 In this module I selected 4 hotel destinations that potential customers might like to use for their trip planning. Based on selection I extracted coordinates with to_numpy() function and used Google Directions API to connect and mark those points via selected traveling mode
-  ![Multiple Line Chart Tot Fares by City Type](https://xxy.png)
-   ![Multiple Line Chart Tot Fares by City Type](https:/xx.png)
- 
- 
- 
+
+ ![WeatherPy_vacation_map_png](https://xx.png)
+  ![WeatherPy_travel_map png](https://xx.png)
+   ![WeatherPy_travel_map_markers png](https://xx.png)
+     
+
  
  
  just in case i need this  keep the format  
