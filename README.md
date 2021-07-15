@@ -27,6 +27,9 @@ We are also using **Matplotlib** to and data frames to work with Python’s plot
    -	Weather Database -   
     INSERT THE WEATHER DATABASE shots here  down below and rewrite this 
 
+ ![snapshot of Pandas data frame with data from Open Weather API Exercise](xx)
+
+
 In this activity we used **NumPy** to retrieve a random set of 2000 random coordinates (latitudes and longitudes) and **CityPy** module to define the closest city names  
 based on these coordinates. Once city names were stored in a list, I used **Open Weather APIs** to request **JSON** weather data from a website. After cleaning the data, final  
 were transformed into **Pandas** data frame and stored in CSV file.
