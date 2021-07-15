@@ -12,8 +12,9 @@ This project consists of three modules.
   -	Vacation Itinerary
  
 ### Overview the methods and code
-The data is gathered in two different CSV files (the city data and the ride data). We then utilize **Jupyter notebook** and **Pandas Library** to inspect data, and merge dataset.   
-perform calculations and create new data series and data frames to work with.  We are also using Python’s plotting library **Matplotlib** to make the more effective charts. 
+The data is gathered in two different CSV files (the city data and the ride data). We then utilize **Jupyter notebook** and **Pandas Library** to inspect data,    
+and merge datasets perform calculations, perform calculations and create new data series and data frames to work with.  We are also using Python’s plotting library
+**Matplotlib** to make the more effective charts.
 
 ### Resources
 - Data Sources :      CSV files here  
