@@ -3,6 +3,9 @@
 # Adding api practice and random numbers 
 API_practice.ipynb
 random_numbers.ipynb
+API_practicewAdrien.ipynb
+Traversing_JSONs.ipynb
+WeatherPy.ipynb
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
