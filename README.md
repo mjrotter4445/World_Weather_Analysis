@@ -7,8 +7,8 @@
 In this project I put together a beta version of an application for potential travel technology services that specializes in hotel and logging industry. The application collects and presents data for customers via the search page that can be filtered based on preferred travel criteria in order to find their ideal hotel anywhere in the world.
 This project consists of three modules.
 
-  -	Weather Database -  
-  -	Vacation Search - 
+  -	Weather Database 
+  -	Vacation Search  
   -	Vacation Itinerary
  
 ### Overview the methods and code
@@ -22,20 +22,15 @@ We are also using **Matplotlib** to and data frames to work with Python’s plot
   - [Vacation_Search.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation.csv)
  
 ## Results 
-**1.  Weather Database**
+ **1.   Weather Database**
     The first exercise in this challenge was to create a DataFrame with our weather data that looks like this: 
-   -	Weather Database -   
-    INSERT THE WEATHER DATABASE shots here  down below and rewrite this 
 
- ![data from Open Weather API Exercise](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Dataframe_screenshot.png)
-
-
-
-
-In this activity we used **NumPy** to retrieve a random set of 2000 random coordinates (latitudes and longitudes) and **CityPy** module to define the closest city names  
-based on these coordinates. Once city names were stored in a list, I used **Open Weather APIs** to request **JSON** weather data from a website. After cleaning the data, final  
-were transformed into **Pandas** data frame and stored in CSV file.
-
+  ![data from Open Weather API Exercise](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Dataframe_screenshot.png)
+  
+In this activity we used **NumPy** to retrieve a random set of 2000 random coordinates (latitudes and longitudes) and 
+**Citipy** module to define the closest city names based on these coordinates.   Once the city names were store in a 
+list, we used **Open Weather APIs** to request **json** format weather data from the website.  After leaning the data, 
+final were transformed into **Pandas** data frame and stored in CSV file.
 
 **2.  Vacation Search** 
 
