@@ -4,9 +4,9 @@
 ## Project Overview 
 ### Purpose & Background
 
-In this project I put together a beta version of an application for potential travel technology services that specializes in hotel and logging industry.
-The application collects and presents data for customers via the search page that can be filtered based on preferred travel criteria in order 
-to find their ideal hotel anywhere in the world.
+In this project I put together a beta version of an application for potential travel technology services that specializes in hotel and 
+logging industry.  The application collects and presents data for customers via the search page that can be filtered based on preferred 
+travel criteria in order to find their ideal hotel anywhere in the world.
 
 This project consists of three modules.
 
@@ -15,12 +15,13 @@ This project consists of three modules.
   -	Vacation Itinerary
  
 ### Overview the methods and code
-The data used to accomplish the activity are primarily 2 different CSV files (the weather data and the cleaned preferred hotel data). We then utilize 
-**Jupyter notebook** and **Pandas Library** to inspect data, and merge datasets, perform calculations and create new data series and charts and maps. 
-We are also using **Matplotlib** to and data frames to work with Python’s plotting library make the more effective charts.
+The data used to accomplish the activity are primarily 2 different CSV files (the weather data and the cleaned preferred hotel data). 
+We then utilize **Jupyter notebook** and **Pandas Library** to inspect data, and merge datasets, perform calculations and create 
+new data series and charts and maps.  We are also using **Matplotlib** to and data frames to work with Python’s plotting 
+library make the more effective charts.
 
 ### Resources
-- Data Sources :      CSV files here  
+- Data Sources :    
   - [WeatherPy_Database.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Database.csv)
   - [Vacation_Search.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation.csv)
  
@@ -32,7 +33,7 @@ We are also using **Matplotlib** to and data frames to work with Python’s plot
   
 In this activity we used **NumPy** to retrieve a random set of 2000 random coordinates (latitudes and longitudes) and 
 **Citipy** module to define the closest city names based on these coordinates.   Once the city names were store in a 
-list, we used **Open Weather APIs** to request **json** format weather data from the website.  After leaning the data, 
+list, we used **Open Weather APIs** to request **json** format weather data from the website.  After leaning the data,
 final were transformed into **Pandas** data frame and stored in CSV file.
 
 **2.  Vacation Search** 
@@ -45,7 +46,10 @@ final were transformed into **Pandas** data frame and stored in CSV file.
  
  
 INSERT THE WEATHER DATABASE shots here  down below and rewrite this 
-In this module I used input function to take and store potential customer preferred minimum and maximum temperatures. Based on this input I used Pandas loc method on Weather Database file to filter the data. Next, I used Google Maps APIs to retrieve hotel names. After cleaning the data, the data frame was exported to CSV file. With the Jupyter gmaps module I plotted map with pop-up message that includes hotel name, city, country and weather information.  The next exercise was to build a pivot table to display the comparitive results. From the pivot table we were able to  
+In this module I used input function to take and store potential customer preferred minimum and maximum temperatures. Based on this input I used 
+Pandas loc method on Weather Database file to filter the data. Next, I used Google Maps APIs to retrieve hotel names. After cleaning the data, 
+the data frame was exported to CSV file. With the Jupyter gmaps module I plotted map with pop-up message that includes hotel name, city, 
+country and weather information.  The next exercise was to build a pivot table to display the comparitive results. From the pivot table we were able to  
 prdouce and display more meaningful data.  This multi-line chart tells the story in detail and is pleasant to read. 
    
  ![Multiple Line Chart Tot Fares by City Type](https://xx.png)
