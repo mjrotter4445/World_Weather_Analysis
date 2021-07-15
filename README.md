@@ -7,28 +7,39 @@
 In this project I put together a beta version of an application for potential travel technology services that specializes in hotel and logging industry. The application collects and presents data for customers via the search page that can be filtered based on preferred travel criteria in order to find their ideal hotel anywhere in the world.
 This project consists of three modules.
 
-  -	Weather Database
-  -	Vacation Search
+  -	Weather Database -  
+  -	Vacation Search - 
   -	Vacation Itinerary
  
 ### Overview the methods and code
-The data is gathered in two different CSV files (the city data and the ride data). We then utilize **Jupyter notebook** and **Pandas Library** to inspect data,
-and merge datasets perform calculations, perform calculations and create new data series and data frames to work with.  We are also using Python’s plotting library
-**Matplotlib** to make the more effective charts.
+The data used to accomplish the activity are primarily 2 different CSV files (the weather data and the cleaned preferred hotel data). We then utilize 
+**Jupyter notebook** and **Pandas Library** to inspect data, and merge datasets, perform calculations and create new data series and charts and maps. 
+We are also using **Matplotlib** to and data frames to work with Python’s plotting library make the more effective charts.
 
 ### Resources
 - Data Sources :      CSV files here  
   - [WeatherPy_Database.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Database.csv)
   - [Vacation_Search.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation.csv)
  
-
 ## Results 
-The first exercise in this challenge was to create a DataFrame with our combined data.  The new Pyber Fare Summary looks like this: 
+**1.  Weather Database**
+    The first exercise in this challenge was to create a DataFrame with our weather data that looks like this: 
+   -	Weather Database -   
+    INSERT THE WEATHER DATABASE shots here  down below and rewrite this 
 
-INSERT THE WEATHER DATABASE shots here  down below and rewrite this 
-In this module I used NumPy random module to retrieve 2000 random coordinates (latitudes and longitudes) and CityPy module to define the closest city names based on these coordinates. Once city names were stored in a list, I used Open Weather APIs to request json weather data from a website. After cleaning the data, final results were transformed into Pandas data frame and stored in CSV file.
+In this activity we used **NumPy** to retrieve a random set of 2000 random coordinates (latitudes and longitudes) and **CityPy** module to define the closest city names  
+based on these coordinates. Once city names were stored in a list, I used **Open Weather APIs** to request **JSON** weather data from a website. After cleaning the data, final  
+were transformed into **Pandas** data frame and stored in CSV file.
 
-![xx](xx)
+
+**2.  Vacation Search** 
+
+ 
+**3.  Vacation Itinerary** 
+
+
+ ![xx](xx)
+ 
  
 INSERT THE WEATHER DATABASE shots here  down below and rewrite this 
 In this module I used input function to take and store potential customer preferred minimum and maximum temperatures. Based on this input I used Pandas loc method on Weather Database file to filter the data. Next, I used Google Maps APIs to retrieve hotel names. After cleaning the data, the data frame was exported to CSV file. With the Jupyter gmaps module I plotted map with pop-up message that includes hotel name, city, country and weather information.  The next exercise was to build a pivot table to display the comparitive results. From the pivot table we were able to  
