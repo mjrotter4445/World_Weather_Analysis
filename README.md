@@ -4,7 +4,10 @@
 ## Project Overview 
 ### Purpose & Background
 
-In this project I put together a beta version of an application for potential travel technology services that specializes in hotel and logging industry. The application collects and presents data for customers via the search page that can be filtered based on preferred travel criteria in order to find their ideal hotel anywhere in the world.
+In this project I put together a beta version of an application for potential travel technology services that specializes in hotel and logging industry.
+The application collects and presents data for customers via the search page that can be filtered based on preferred travel criteria in order 
+to find their ideal hotel anywhere in the world.
+
 This project consists of three modules.
 
   -	Weather Database 
