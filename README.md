@@ -65,23 +65,23 @@ and used Google Directions API to connect and mark those points via selected tra
 not sure if i have this but maybe ![WeatherPy_travel_map_markers png](https://xx.png)
  
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
+ x
  
 keep file names handy for inserting later - from the final list of pngs  I should have  
   ![WeatherPy_travel_map png](https://xx.png)
