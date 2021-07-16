@@ -29,7 +29,7 @@ library make the more effective charts.
  **1.   Weather Database**
     The first exercise in this challenge was to create a DataFrame with our weather data that looks like this: 
 <p align="center">
-  ![data from Open Weather API Exercise](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Dataframe_screenshot.png)
+  <![data from Open Weather API Exercise](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Dataframe_screenshot.png)>
 </p> 
 In this activity we used **NumPy** to retrieve a random set of 2000 random coordinates (latitudes and longitudes)
 and **Citipy** module to define the closest city names based on these coordinates.  Once the city names were stored 
