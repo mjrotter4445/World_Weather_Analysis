@@ -38,7 +38,9 @@ final formats were developed into **Pandas** data frame and stored in CSV file.
 
 **2.  Vacation Search** 
 
- ![xx](xx)
+<p align="center">
+ ![Map to retreive hotel names and weather information](xx)
+</p>
 
 ##Map by Google Maps APIs to retrieve hotel names and weather information
 
