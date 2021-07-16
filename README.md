@@ -46,8 +46,9 @@ and weather information.
  
  ![Map to retreive hotel names and weather information](xx)
  
+ 
 <p align="center">
-##Map by Google Maps APIs to retrieve hotel names and weather information
+centered title use this below maps Map by Google Maps APIs to retrieve hotel names and weather information
 </p>
 
    
