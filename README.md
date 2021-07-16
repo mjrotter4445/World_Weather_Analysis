@@ -38,40 +38,27 @@ final formats were developed into **Pandas** data frame and stored in CSV file.
 
 **2.  Vacation Search** 
 
-
  ![xx](xx)
+
+##Map by Google Maps APIs to retrieve hotel names and weather information
+
 In this activity we used the input function to collect and store possible preferred minimum and maximum temperatures
 desired for their vacation.   Based on this input, we used Pandas loc method on the Weather Database file to filter 
 data.  Next, we appied Google Maps APIs to retrieve hotel names, clean the dta and export teh file to a csv format.
 With **Jupyter gmaps module** we could plot a map with pop-up messages that include hotel name, city, country
 and weather information.   
 
-
-
- 
 **3.  Vacation Itinerary** 
 
 
- ![xx](xx)
-  ![xx](xx)
+![WeatherPy_vacation_map_png](https://xx.png)
+![WeatherPy_travel_map png](https://xx.png)
  
- 
- 
-INSERT THE WEATHER DATABASE shots here  down below and rewrite this 
-In this module I used input function to take and store potential customer preferred minimum and maximum temperatures. Based on this input
-I used Pandas loc method on Weather Database file to filter the data. Next, I used Google Maps APIs to retrieve hotel names. 
-After cleaning the data, the data frame was exported to CSV file. With the Jupyter gmaps module I plotted map with pop-up message 
-that includes hotel name, city, country and weather information.  
-The next exercise was to build a pivot table to display the comparitive results. From the pivot table we were able to  
-prdouce and display more meaningful data.  This multi-line chart tells the story in detail and is pleasant to read. 
-   
- ![Multiple Line Chart Tot Fares by City Type](https://xx.png)
- 
- 
-INSERT THE VACATION ITINERARY  here and rewrite this stuff below  
-In this module I selected 4 hotel destinations that potential customers might like to use for their trip planning. Based on selection I extracted coordinates with to_numpy() function and used Google Directions API to connect and mark those points via selected traveling mode
+In this activity xxxxx  In this module I selected 4 hotel destinations that potential customers might like to use for their trip planning. Based on selection I extracted coordinates with to_numpy() function and used Google Directions API to connect and mark those points via selected traveling mode
 
- ![WeatherPy_vacation_map_png](https://xx.png)
+ 
+ ###keep file names handy for inserting later - from the final list of pngs  I should have  
+ 
   ![WeatherPy_travel_map png](https://xx.png)
    ![WeatherPy_travel_map_markers png](https://xx.png)
      
