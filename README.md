@@ -48,7 +48,7 @@ and weather information.
  
  
 <p align="center">
-centered title use this below maps Map by Google Maps APIs to retrieve hotel names and weather information
+centered Title for below maps such as: Map by Google Maps APIs to retrieve hotel names and weather information
 </p>
 
    
@@ -60,12 +60,24 @@ and used Google Directions API to connect and mark those points via selected tra
 
 ![WeatherPy_vacation_map_png](https://xx.png)
 
-
 ![WeatherPy_travel_map png](https://xx.png)
 
 not sure if i have this but maybe ![WeatherPy_travel_map_markers png](https://xx.png)
  
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
