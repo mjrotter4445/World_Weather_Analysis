@@ -27,45 +27,54 @@ library make the more effective charts.
  
 ## Results 
  **1.   Weather Database**
-    The first exercise in this challenge was to create a DataFrame with our weather data that looks like this: 
- 
-  ![data from Open Weather API Exercise](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Dataframe_screenshot.png)
- 
+The first exercise in this challenge was to create a DataFrame with our weather data that looks like this: 
 In this activity we used **NumPy** to retrieve a random set of 2000 random coordinates (latitudes and longitudes)
 and **Citipy** module to define the closest city names based on these coordinates.  Once the city names were stored 
 in a list, we used **Open Weather APIs** to request **json** format weather data from the website.  After cleaning the data, 
 final formats were developed into **Pandas** data frame and stored in CSV file.
 
-**2.  Vacation Search** 
+![data from Open Weather API Exercise](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Dataframe_screenshot.png)
+ 
 
+
+**2.  Vacation Search** 
+In this activity we used the input function to collect and store possible preferred minimum and maximum temperatures
+desired for their vacation.   Based on this input, we used Pandas loc method on the Weather Database file to filter 
+data.  Next, we applied Google Maps APIs to retrieve hotel names, clean the dta and export teh file to a csv format.
+With **Jupyter gmaps module** we could plot a map with pop-up messages that include hotel name, city, country
+and weather information.
  
  ![Map to retreive hotel names and weather information](xx)
  
-
+<p align="center">
 ##Map by Google Maps APIs to retrieve hotel names and weather information
+</p>
 
-In this activity we used the input function to collect and store possible preferred minimum and maximum temperatures
-desired for their vacation.   Based on this input, we used Pandas loc method on the Weather Database file to filter 
-data.  Next, we appied Google Maps APIs to retrieve hotel names, clean the dta and export teh file to a csv format.
-With **Jupyter gmaps module** we could plot a map with pop-up messages that include hotel name, city, country
-and weather information.   
+   
 
 **3.  Vacation Itinerary** 
-
+In this activity we narrow the search.  We selected 4 hotel destinations that potential customers might like to use for their trip planning. 
+Once the traveller selects the temperature range they prefer, we extracted coordinates with to_numpy() function
+and used Google Directions API to connect and mark those points via selected traveling mode. 
 
 ![WeatherPy_vacation_map_png](https://xx.png)
+
+
 ![WeatherPy_travel_map png](https://xx.png)
+
+not sure if i have this but maybe ![WeatherPy_travel_map_markers png](https://xx.png)
  
-In this activity xxxxx  In this module I selected 4 hotel destinations that potential customers might like to use for their trip planning. Based on selection I extracted coordinates with to_numpy() function and used Google Directions API to connect and mark those points via selected traveling mode
 
  
- ###keep file names handy for inserting later - from the final list of pngs  I should have  
  
+ 
+ 
+ 
+keep file names handy for inserting later - from the final list of pngs  I should have  
   ![WeatherPy_travel_map png](https://xx.png)
-   ![WeatherPy_travel_map_markers png](https://xx.png)
-     
-
- 
+  
+  ![WeatherPy_travel_map_markers png](https://xx.png)
+  
  
  just in case i need this  keep the format  
 1. The total number of rides for each city type. 
