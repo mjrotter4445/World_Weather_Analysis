@@ -33,24 +33,26 @@ and **Citipy** module to define the closest city names based on these coordinate
 in a list, we used **Open Weather APIs** to request **json** format weather data from the website.  After cleaning the data, 
 final formats were developed into **Pandas** data frame and stored in CSV file.
 
-![data from Open Weather API Exercise](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Dataframe_screenshot.png)
- 
+<p align="center">
+<img src="https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Dataframe_screenshot.png">
+</p>
 
+<p align="center">
+Map by Google Maps APIs
+</p>
 
 **2.  Vacation Search** 
 In this activity we used the input function to collect and store possible preferred minimum and maximum temperatures
 desired for their vacation.   Based on this input, we used Pandas loc method on the Weather Database file to filter 
 data.  Next, we applied Google Maps APIs to retrieve hotel names, clean the dta and export the file to a csv format.
 With **Jupyter gmaps module** we can plot a map with markers at desired locations.      
- 
- ![Map to retreive hotel names and weather information](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
- 
+         
+![WeatherPy_travel_map_markers png](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
  
 <p align="center">
 Map by Google Maps APIs
 </p>
 
-   
 
 **3.  Vacation Itinerary** 
 In this activity we narrow the search.  We selected 4 hotel destinations that potential customers might like to use for their trip planning. 
