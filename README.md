@@ -40,15 +40,14 @@ final formats were developed into **Pandas** data frame and stored in CSV file.
 **2.  Vacation Search** 
 In this activity we used the input function to collect and store possible preferred minimum and maximum temperatures
 desired for their vacation.   Based on this input, we used Pandas loc method on the Weather Database file to filter 
-data.  Next, we applied Google Maps APIs to retrieve hotel names, clean the dta and export teh file to a csv format.
-With **Jupyter gmaps module** we could plot a map with pop-up messages that include hotel name, city, country
-and weather information.
+data.  Next, we applied Google Maps APIs to retrieve hotel names, clean the dta and export the file to a csv format.
+With **Jupyter gmaps module** we could plot a map with markers at desired locations.      
  
- ![Map to retreive hotel names and weather information](xx)
+ ![Map to retreive hotel names and weather information](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
  
  
 <p align="center">
-centered Title for below maps such as: Map by Google Maps APIs to retrieve hotel names and weather information
+centered Title for below maps such as: Map by Google Maps APIs
 </p>
 
    
