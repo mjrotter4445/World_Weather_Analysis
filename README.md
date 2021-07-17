@@ -47,7 +47,7 @@ With **Jupyter gmaps module** we could plot a map with markers at desired locati
  
  
 <p align="center">
-centered Title for below maps such as: Map by Google Maps APIs
+Map by Google Maps APIs
 </p>
 
    
@@ -56,12 +56,6 @@ centered Title for below maps such as: Map by Google Maps APIs
 In this activity we narrow the search.  We selected 4 hotel destinations that potential customers might like to use for their trip planning. 
 Once the traveller selects the temperature range they prefer, we extracted coordinates with to_numpy() function
 and used Google Directions API to connect and mark those points via selected traveling mode. 
-
-![WeatherPy_vacation_map_png](https://xx.png)
-
-![WeatherPy_travel_map png](https://xx.png)
-
-not sure if i have this but maybe ![WeatherPy_travel_map_markers png](https://xx.png)
  
  
 keep file names handy for inserting later - from the final list of pngs  I should have  
