@@ -61,7 +61,7 @@ and used Google Directions API to connect and mark those points via selected tra
  
  
 keep file names handy for inserting later - from the final list of pngs  I should have  
-  ![WeatherPy_travel_map png](https://xx.png)
+  ![WeatherPy_travel_map png](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
   
   ![WeatherPy_travel_map_markers png](https://xx.png)
   
