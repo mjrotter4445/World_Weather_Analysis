@@ -6,6 +6,7 @@ random_numbers.ipynb
 API_practicewAdrien.ipynb
 Traversing_JSONs.ipynb
 WeatherPy.ipynb
+api.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
