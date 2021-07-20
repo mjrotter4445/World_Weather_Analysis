@@ -56,21 +56,23 @@ Map by Google Maps APIs
 
 **3.  Vacation Itinerary** 
 In this activity we narrow the search.  We selected 4 hotel destinations that potential customers might like to use for their trip planning. 
-Once the traveller selects the temperature range they prefer, we extracted coordinates with to_numpy() function
-and used Google Directions API to connect and mark those points via selected traveling mode. 
- 
- 
-keep file names handy for inserting later - from the final list of pngs  I should have  
-  ![WeatherPy_travel_map png](https://xx.png)
-  
-  ![WeatherPy_travel_map_markers png](https://xx.png)
+Once the traveller selects the temperature range they prefer, we extracted coordinates **with to_numpy() function**
+and used **Google Directions API** to connect and mark those points via selected traveling mode. 
   
  
+  ![WeatherPy_travel_map png](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+  
+<p align="center">
+Map of 4 hotels in Brazil we could travel to by Google Maps APIs
+</p>
+
+  
+  ![WeatherPy_travel_map_markers png](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+
+<p align="center">
+Map of the Driving Route we could take by Google Maps APIs
+</p>
+
  
+
  
- 
- just in case i need this  keep the format  
-1. xx
-   - xx 
-2. xx
-   - xx 
