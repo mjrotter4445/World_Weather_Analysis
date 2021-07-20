@@ -25,6 +25,17 @@ library make the more effective charts.
   - [WeatherPy_Database.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Weather_Database/WeatherPy_Database.csv)
   - [Vacation_Search.csv](https://github.com/mjrotter4445/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation.csv)
  
+- Environment:  PythonData
+- Dependencies: 
+  -   Pandas Library
+  -   Citipy Module
+  -   Numpy Library
+  -   Python Requests 
+ - APIs: 
+  -   Open Weather Maps API to retreive weather data.
+  -   Google Maps API to create heat maps and retrieve information about hotels around the world.
+  -   Google Directions APIto map the course between 4 points 
+ 
 ## Results 
  **1.   Weather Database**
 The first exercise in this challenge was to create a DataFrame with our weather data that looks like this: 
